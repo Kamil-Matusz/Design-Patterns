@@ -34,3 +34,4 @@ public class Klient
      l.oblicz_rate(kwota,ile_lat);
    }
 }
+

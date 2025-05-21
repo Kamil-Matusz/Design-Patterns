@@ -5,8 +5,7 @@ public class BuforWydruku {
     private static volatile BuforWydruku bufor;
     private static int licz;
 
-    private BuforWydruku() {  
-    }
+    private BuforWydruku() {}
     
     public static BuforWydruku getSpooler() {
         if (bufor == null) {

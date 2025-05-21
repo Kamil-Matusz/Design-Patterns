@@ -16,7 +16,7 @@ public class Wynik {
 		List<String> list1 = pracNew1.getPracList();
 		list1.remove("Marek");
 		
-		System.out.println("Lista pracownik�w: " + pracownicy.getPracList());
+		System.out.println("Lista pracowników: " + pracownicy.getPracList());
 		System.out.println("Nowa lista pracowników po zatrudnieniu: " + list);
 		System.out.println("Nowa lista pracowników po zwolnieniu: " + list1);
 	}
