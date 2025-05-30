@@ -10,5 +10,11 @@ public class Shops {
 
         System.out.println("Produkt: " + produkt.getName());
         System.out.println("Cena przed promocją: " + produkt.getPrice());
+        System.out.println("Cena po promocji: " + promocja.applyDiscount(produkt));
+
+        if (produkt instanceof ProduktSpozywczy) {
+            ProduktSpozywczy ps = (ProduktSpozywczy) produkt;
+            System.out.println("Data ważności: " + ps.getExpirationDate());
+        }
     }
 }
