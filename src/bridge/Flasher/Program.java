@@ -6,6 +6,7 @@ public class Program {
     {
         Flasher anUsbFlasher = new USBFlasher(new USBDevice());
         Flasher aSerialFlasher = new SerialFlasher(new SerialDevice());        
+        Flasher aBluetoothFlaher = new BluetoothFlasher(new BluetoothDevice());
         System.out.println("sygnalizacja pracy urzadzenia portu szeregowego");
         aSerialFlasher.connectDevice();
         aSerialFlasher.validateDevice();
@@ -24,5 +25,14 @@ public class Program {
             anUsbFlasher.flashDevice();
         }
         anUsbFlasher.eject();
+        System.out.println("\nsygnalizacja pracy urządzenia portu Bluetooth");
+        aBluetoothFlaher.connectDevice();
+        aBluetoothFlaher.validateDevice();
+        anUsbFlasher.initFlashing();
+        aBluetoothFlaher.communicateViaProtocall();
+        if(aBluetoothFlaher.flashStatus){
+            aBluetoothFlaher.flashDevice();
+        }
+        aBluetoothFlaher.eject();
     }
 }

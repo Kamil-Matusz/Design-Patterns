@@ -4,6 +4,7 @@ public abstract class Device
 {
 	protected String type="Urzadzenie";
 	protected boolean deviceConnectionStatus=false;
+
 	public String getType() 
 	{
 		return type;

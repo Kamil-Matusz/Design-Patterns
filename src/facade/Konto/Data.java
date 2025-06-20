@@ -29,5 +29,4 @@ public class Data
 		    else
 		      System.out.println("Aktualna data: " + rok + "-" + miesiac + "-" + dzien);
 	}
-	
 }

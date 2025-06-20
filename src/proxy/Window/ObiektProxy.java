@@ -2,7 +2,6 @@ package proxy.Window;
 
 public class ObiektProxy implements Obraz
  {
-
 	   private RzeczywistyObraz rzeczywistyObraz;
 	   private String nazwaPliku;
 
@@ -10,7 +9,6 @@ public class ObiektProxy implements Obraz
 	   {
 	      this.nazwaPliku = nazwaPliku;
 	   }
-
 
 	   public void wyswietl()
 	   {

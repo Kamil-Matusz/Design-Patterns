@@ -16,7 +16,7 @@ public class SimplePart implements Part {
 	
 	@Override
 	public void addPart(Part part) {
-		//Do li�cia nie mo�na dodawa� obiekt�w
+		//Do liscia nie można dodawać obiektów
 	}
 
 	@Override
@@ -31,7 +31,7 @@ public class SimplePart implements Part {
 	
 	@Override
 	public String getData() {
-		String s = "Nazwa: " +name + "\n" + "Cena: " + price + " z�\n" + "Opis: " + data;
+		String s = "Nazwa: " +name + "\n" + "Cena: " + price + " zł\n" + "Opis: " + data;
 		return s;
 	}
 	

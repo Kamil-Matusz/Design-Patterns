@@ -18,7 +18,7 @@ public abstract class Flasher {
             System.out.println("urzadzenie " + myDevice.getType() + " zostalo zatwierdzone przez system");
             flashStatus = true;
         } else {
-            System.out.println("urz�dzenie " + myDevice.getType() + " nie zostalo zatwierdzone przez system");
+            System.out.println("urzadzenie " + myDevice.getType() + " nie zostalo zatwierdzone przez system");
         }
     }
 

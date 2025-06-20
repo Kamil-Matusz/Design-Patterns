@@ -11,13 +11,10 @@ public class Program
       api.wypiszLogin();
       api.wypiszDane();
       api.wypiszWiek();
-      
     }
-    	
-	
+
 	public static void main(String[] args) 
 	{
 	  new Program();
 	}
-
 }

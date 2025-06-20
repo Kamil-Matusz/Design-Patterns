@@ -22,5 +22,4 @@ public class Konto
   {
 	  return login;
   }
-	
 }
