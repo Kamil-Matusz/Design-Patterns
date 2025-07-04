@@ -10,7 +10,7 @@ public class TextDocument implements Document {
 
     @Override
     public void save(String data) {
-        
+
         String formattedData = transformToTextFormat(data);
 
         pdfDocument.saveToPDF(formattedData, "plik.pdf");

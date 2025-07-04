@@ -1,8 +1,7 @@
 package bridge.FlowerShop;
 
-public class Tulip extends Flower {
-
-    public Tulip() {
-        super("Tulip", "Yellow", 7.5);
-    }
+public class Tulip implements Flower {
+    public String getName() { return "Tulipan"; }
+    public String getColor() { return "Żółty"; }
+    public double getPrice() { return 7.5; }
 }

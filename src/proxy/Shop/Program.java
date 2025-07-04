@@ -6,7 +6,6 @@ public class Program {
         SprzetSportowy amator = new OgraniczonySprzetSportowyProxy(
                 "Rower Górski X200", "Trek", "Lekka rama, amortyzatory, 27 biegów", 2999.99, false);
 
-
         SprzetSportowy firma = new OgraniczonySprzetSportowyProxy(
                 "Rower Górski X200", "Trek", "Lekka rama, amortyzatory, 27 biegów", 2999.99, true);
 

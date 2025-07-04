@@ -68,5 +68,4 @@ public class Klient {
         System.out.println(felga.getData());
 
 	}
-
 }

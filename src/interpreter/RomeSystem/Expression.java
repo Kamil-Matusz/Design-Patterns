@@ -1,7 +1,6 @@
 package interpreter.RomeSystem;
 
 interface Expression {
-
-	int interpret(Context context);
+    int interpret(Context context);
 }
 

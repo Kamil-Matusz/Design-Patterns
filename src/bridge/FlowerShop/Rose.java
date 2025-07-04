@@ -1,8 +1,7 @@
 package bridge.FlowerShop;
 
-public class Rose extends Flower {
-
-    public Rose() {
-        super("Rose", "Red", 10.0);
-    }
+public class Rose implements Flower {
+    public String getName() { return "Róża"; }
+    public String getColor() { return "Czerwona"; }
+    public double getPrice() { return 10.0; }
 }

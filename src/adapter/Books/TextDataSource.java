@@ -7,8 +7,7 @@ public class TextDataSource {
 
     private List<String> data = new ArrayList<>(List.of(
             "Wiedźmin|Andrzej Sapkowski",
-            "Lalka|Bolesław Prus"
-    ));
+            "Lalka|Bolesław Prus"));
 
     public List<String> getTextData() {
         return data;
