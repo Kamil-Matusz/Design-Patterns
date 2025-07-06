@@ -1,8 +1,7 @@
 package iterator.Table;
 
-public class Tablica<T> implements Kontener
- {
-	private static final int DOMYSLNA_POJEMNOSC = 10;
+public class Tablica<T> implements Kontener {
+    private static final int DOMYSLNA_POJEMNOSC = 10;
     private T magazyn[];
 
     @SuppressWarnings("unchecked")

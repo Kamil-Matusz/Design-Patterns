@@ -2,8 +2,8 @@ package iterator.Table;
 
 public interface Iterator 
 {
-	public boolean hasNext();
-	public boolean hasPrevious();
-	public Object next();
-	public Object previous();
+	boolean hasNext();
+	boolean hasPrevious();
+	Object next();
+	Object previous();
 }
